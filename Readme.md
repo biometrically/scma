@@ -1,5 +1,5 @@
 ## Run dev environment
 
 ```
-sudo docker-compose up
+docker-compose up -d
 ```
