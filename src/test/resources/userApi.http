@@ -1,0 +1,35 @@
+POST http://localhost:8080/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsIkF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXSwiaWQiOiIxIiwiZXhwIjoxNTk0NjM4MDU2fQ.Tg0U9F3pTxlqEkU4P7zguigq_x0L6hqCoQGbKLPJBktlAl_c86BxfTyfm4g2w5PoEvIWenR_qB1sDtbLXoiqhA
+
+{
+  "firstName": "Peter",
+  "lastName": "Parker",
+  "email": "parker@gmail.com",
+  "username": "manager",
+  "password": "manager",
+  "role": "ROLE_MANAGER"
+}
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9NQU5BR0VSIl0sImlkIjoiNCIsImV4cCI6MTU5NDYzODc2M30.gNbNlofchMrJ8nR4kDFfw0YLlSlVVIB4WQ_1dgBrmph6PDzfZzcmWryVsqmj0uyOQcgXSApLfadbVTgmjd2cBA
+
+{
+  "firstName": "Tony",
+  "lastName": "Stark",
+  "email": "stark@gmail.com",
+  "username": "waiter",
+  "password": "waiter",
+  "role": "ROLE_WAITER"
+}
+
+###
+
+GET http://localhost:8080/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ3YWl0ZXIiLCJBdXRob3JpdGllcyI6WyJST0xFX1dBSVRFUiJdLCJpZCI6IjUiLCJleHAiOjE1OTQ2Mzg4NjJ9.t8EOsFVggYV2DPqEIsBgxh6aM84l4NCMQiqwU7W1jNq5kh0sd_rVoTpv8Y0Gwac0bDsP_-HHT6Bgi27XKa2b_g
+
+###

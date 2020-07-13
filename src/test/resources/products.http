@@ -1,0 +1,24 @@
+GET http://localhost:8080/products
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ3YWl0ZXIiLCJBdXRob3JpdGllcyI6WyJST0xFX1dBSVRFUiJdLCJpZCI6IjIiLCJleHAiOjE1OTQ2NjM2NDV9.1E2aptu7vGmOq51oVKaEWe9ZEGVrG2J-Bzk2kozovxS6Y7gGpFXi8Argg1GuLQ2pxQXbnRqoTOJ_Nh5Y-0_oEw
+
+###
+
+POST localhost:8080/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9NQU5BR0VSIl0sImlkIjoiNCIsImV4cCI6MTU5NDYzODc2M30.gNbNlofchMrJ8nR4kDFfw0YLlSlVVIB4WQ_1dgBrmph6PDzfZzcmWryVsqmj0uyOQcgXSApLfadbVTgmjd2cBA
+
+{
+  "price": 250,
+  "name": "cola"
+}
+
+###
+
+POST localhost:8080/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9NQU5BR0VSIl0sImlkIjoiNCIsImV4cCI6MTU5NDYzODc2M30.gNbNlofchMrJ8nR4kDFfw0YLlSlVVIB4WQ_1dgBrmph6PDzfZzcmWryVsqmj0uyOQcgXSApLfadbVTgmjd2cBA
+
+{
+  "price": 350,
+  "name": "fanta"
+}

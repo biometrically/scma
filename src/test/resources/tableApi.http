@@ -1,0 +1,23 @@
+POST http://localhost:8080/tables
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9NQU5BR0VSIl0sImlkIjoiNCIsImV4cCI6MTU5NDYzODc2M30.gNbNlofchMrJ8nR4kDFfw0YLlSlVVIB4WQ_1dgBrmph6PDzfZzcmWryVsqmj0uyOQcgXSApLfadbVTgmjd2cBA
+
+###
+
+PUT http://localhost:8080/tables/1/waiter/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9NQU5BR0VSIl0sImlkIjoiNCIsImV4cCI6MTU5NDYzODc2M30.gNbNlofchMrJ8nR4kDFfw0YLlSlVVIB4WQ_1dgBrmph6PDzfZzcmWryVsqmj0uyOQcgXSApLfadbVTgmjd2cBA
+
+###
+
+GET http://localhost:8080/tables
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9NQU5BR0VSIl0sImlkIjoiNCIsImV4cCI6MTU5NDYzODc2M30.gNbNlofchMrJ8nR4kDFfw0YLlSlVVIB4WQ_1dgBrmph6PDzfZzcmWryVsqmj0uyOQcgXSApLfadbVTgmjd2cBA
+
+###
+
+GET http://localhost:8080/tables/my
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ3YWl0ZXIiLCJBdXRob3JpdGllcyI6WyJST0xFX1dBSVRFUiJdLCJpZCI6IjMiLCJleHAiOjE1OTQ2NjYwOTZ9.FtI9pTnr00ZsgRyc2CDFluKhf3ZmhIvlvZ6oW_M0F9yO1tkbS-QXZklQgDclu2LeD6ycgJYxvCbmrVCPyxlVkw
+
+###
