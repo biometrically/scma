@@ -99,7 +99,7 @@ public class SecurityTest {
         ResponseEntity<Void> response = testRestTemplate.exchange(url, HttpMethod.PUT, request, Void.class);
         assertEquals(HttpStatus.FORBIDDEN, response.getStatusCode());
     }
-    
+
     @Test
     public void testWaiterMustNotHaveAccessGetAllTables() {
         HttpHeaders headers = new HttpHeaders();

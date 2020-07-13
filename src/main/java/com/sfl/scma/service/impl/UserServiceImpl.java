@@ -69,7 +69,7 @@ public class UserServiceImpl implements UserService {
     public void deleteUser(Long userId) {
         UserEntity userEntity = userRepository.findById(userId).orElseThrow(IllegalArgumentException::new);
 
-        if(Role.ROLE_WAITER.name().equals(userEntity.getRole())) {
+        if (Role.ROLE_WAITER.name().equals(userEntity.getRole())) {
             List<TableEntity> tables = tableRepository.findByWaiter(userEntity);
             tables.forEach(tableEntity -> {
                 tableEntity.setWaiter(null);

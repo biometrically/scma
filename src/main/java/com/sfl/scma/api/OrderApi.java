@@ -34,7 +34,7 @@ public class OrderApi {
     }
 
     /**
-     * @param order to persist in database
+     * @param order     to persist in database
      * @param principal to check if this order is users order.
      * @return Created order with id
      */
@@ -45,7 +45,7 @@ public class OrderApi {
     }
 
     /**
-     * @param order to persist in database
+     * @param order     to persist in database
      * @param principal to check if this order is users order.
      * @return Created order with id
      */
@@ -56,8 +56,8 @@ public class OrderApi {
     }
 
     /**
-     * @param orderId which must be edited
-     * @param status new status for edit.
+     * @param orderId   which must be edited
+     * @param status    new status for edit.
      * @param principal to check if this order is users order.
      * @return updated order object
      */
@@ -70,10 +70,10 @@ public class OrderApi {
 
     /**
      * @param productRowId which must be updated
-     * @param principal to check if this order is users order.
-     * @param status new status for edit.
-     * @param count updated count.
-     * @return  updated productsInOrder object.
+     * @param principal    to check if this order is users order.
+     * @param status       new status for edit.
+     * @param count        updated count.
+     * @return updated productsInOrder object.
      */
     @PatchMapping("/products/{productRowId}")
     @PreAuthorize("hasRole(T(com.sfl.scma.enums.Role).ROLE_WAITER)")

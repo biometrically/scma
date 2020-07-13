@@ -27,7 +27,7 @@ public class TableApi {
     }
 
     /**
-     * @param tableId which table.
+     * @param tableId  which table.
      * @param waiterId whom to be assigned.
      * @return updated Table.
      */
